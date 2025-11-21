@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeSurf Guide - Digital Safety Checklist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🛡️ SafeSurf Guide</h1>
+            <p>Your interactive checklist for digital safety</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="intro">
+                <h2>Protect Yourself Online</h2>
+                <p>Check off each safety practice you've completed. Small steps make a big difference in your digital safety.</p>
+            </section>
+
+            <section class="progress-section">
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <p class="progress-text">Complete: <span id="progressText">0%</span></p>
+                <p class="encouragement" id="encouragementText">You've got this! Start with the first step.</p>
+            </section>
+
+            <section class="checklist">
+                <h3>Your Digital Safety Checklist</h3>
+                <div class="checklist-items" id="checklistItems">
+                    <div class="checklist-item">
+                        <input type="checkbox" id="item1" class="checkbox">
+                        <label for="item1" class="checklist-label">My social media profiles are set to 'Private'</label>
+                        <div class="tip-content">
+                            <p><strong>Why:</strong> This limits who can see your posts, photos, and personal information to only people you approve.</p>
+                            <p><strong>How:</strong> Go to your privacy settings on each platform and change from 'Public' to 'Private'.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="item2" class="checkbox">
+                        <label for="item2" class="checklist-label">I use strong, unique passwords for each account</label>
+                        <div class="tip-content">
+                            <p><strong>Why:</strong> If one account gets compromised, others stay safe. Strong passwords are hard to guess.</p>
+                            <p><strong>How:</strong> Use a mix of letters, numbers, and symbols. Consider a password manager.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="item3" class="checkbox">
+                        <label for="item3" class="checklist-label">I have enabled two-factor authentication (2FA)</label>
+                        <div class="tip-content">
+                            <p><strong>Why:</strong> Adds an extra layer of security beyond your password.</p>
+                            <p><strong>How:</strong> Look in security settings for "Two-Factor Authentication" and follow the setup steps.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="item4" class="checkbox">
+                        <label for="item4" class="checklist-label">I know how to report and block abusive users</label>
+                        <div class="tip-content">
+                            <p><strong>Why:</strong> Quick action can stop harassment and protect you and others.</p>
+                            <p><strong>How:</strong> Learn where the report/block buttons are on platforms you use regularly.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="item5" class="checkbox">
+                        <label for="item5" class="checklist-label">I'm careful about personal information in posts</label>
+                        <div class="tip-content">
+                            <p><strong>Why:</strong> Location data, personal details, and routines can be used by malicious people.</p>
+                            <p><strong>How:</strong> Think before you post. Avoid sharing your location, address, or daily routines publicly.</p>
+                        </div>
+                    </div>
+
+                    <div class="checklist-item">
+                        <input type="checkbox" id="item6" class="checkbox">
+                        <label for="item6" class="checklist-label">I recognize signs of phishing messages</label>
+                        <div class="tip-content">
+                            <p><strong>Why:</strong> Phishing scams try to trick you into giving away passwords or personal information.</p>
+                            <p><strong>How:</strong> Be suspicious of urgent requests, strange links, and messages asking for personal info.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Built with 💜 for Power Hacks 2025 - Ending Digital Violence Against Women & Girls</p>
+            <div class="resources">
+                <p><strong>Need Help?</strong> Reach out to local helplines or trusted organizations in your community.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
