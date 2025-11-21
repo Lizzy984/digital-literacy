@@ -84,7 +84,7 @@ This project is deployed on Render as a Static Site:
 Deployment Details:
 
 · Platform: Render Static Site
-· URL: https://safesurf-guide.onrender.com
+· URL: https://digital-literacy-y5yi.onrender.com
 · Build Command: (None required - static site)
 · Publish Directory: / (root directory)
 · Branch: main
